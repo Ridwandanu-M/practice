@@ -14,17 +14,6 @@ const geistMono = Geist_Mono({
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center">
-      <h1 className="text-4xl font-bold mb-4">Selamat Datang di Website Kami</h1>
-      <Link href="/contact" className="text-blue-500 hover:underline">
-        Hubungi Kami
-      </Link>
-    </div>
-  );
-}
-
-export default function Home() {
-  return (
     <div
       className={`${geistSans.variable} ${geistMono.variable} grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]`}
     >
